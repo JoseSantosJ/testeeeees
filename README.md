@@ -104,37 +104,37 @@ O script gera automaticamente os seguintes arquivos:
 ## 📈 Resultados e Visualizações
 
 ### 1. Distribuição por Sexo
-![Distribuição por Sexo](https://github.com/user-attachments/assets/distribuicao_sexo.png)
+![Distribuição por Sexo](distribuicao_sexo.png)
 
 A análise revela distribuição equilibrada entre os gêneros: 50.5% masculino e 49.5% feminino, indicando representatividade adequada da amostra.
 
 ### 2. Distribuição por Faixa Etária  
-![Distribuição por Faixa Etária](https://github.com/user-attachments/assets/distribuicao_faixa_etaria.png)
+![Distribuição por Faixa Etária](distribuicao_faixa_etaria.png)
 
 Concentração significativa na faixa de 25-39 anos (população economicamente ativa), seguida pela faixa de 40-59 anos, refletindo o perfil da força de trabalho metropolitana.
 
 ### 3. Distribuição por Renda
-![Distribuição por Renda](https://github.com/user-attachments/assets/distribuicao_renda.png)
+![Distribuição por Renda](distribuicao_renda.png)
 
 Predominância nas faixas de 1-2 salários mínimos, com concentração de baixa/média renda. Destaque para o grupo "sem rendimento", indicando desafios socioeconômicos.
 
 ### 4. Mobilidade Reduzida
-![Mobilidade Reduzida](https://github.com/user-attachments/assets/mobilidade_reduzida.png)
+![Mobilidade Reduzida](mobilidade_reduzida.png)
 
 Baixa incidência de pessoas com mobilidade reduzida na amostra, sugerindo que a pesquisa capturou principalmente população com plena capacidade de locomoção.
 
 ### 5. Distribuição das Atividades
-![Distribuição das Atividades](https://github.com/user-attachments/assets/distribuicao_atividades.png)
+![Distribuição das Atividades](distribuicao_atividades.png)
 
 Análise mostra que aproximadamente 42.000 pessoas trabalham, 24.000 estudam, e cerca de 6.700 combinam trabalho e estudo, evidenciando a dinâmica da população metropolitana.
 
 ### 6. Meios de Transporte para Trabalho
-![Meios de Transporte - Trabalho](https://github.com/user-attachments/assets/transportes_trabalho.png)
+![Meios de Transporte - Trabalho](transportes_trabalho.png)
 
 O gráfico evidencia a predominância do transporte público, com o ônibus como modal principal para deslocamentos ao trabalho.
 
 ### 7. Meios de Transporte para Estudo
-![Meios de Transporte - Estudo](https://github.com/user-attachments/assets/transportes_estudo.png)
+![Meios de Transporte - Estudo](transportes_estudo.png)
 
 Padrão similar ao trabalho, com forte dependência do sistema público de transporte para acesso às instituições de ensino.
 
