@@ -103,22 +103,40 @@ O script gera automaticamente os seguintes arquivos:
 
 ## 📈 Resultados e Visualizações
 
-### Análise Demográfica
-O projeto gera visualizações completas do perfil da população:
-- **Distribuição por Sexo**: Gráfico de pizza mostrando equilíbrio de gênero
-- **Faixa Etária**: Concentração na população economicamente ativa (25-39 anos)
-- **Renda**: Predominância de faixas de baixa/média renda
-- **Mobilidade Reduzida**: Baixa incidência, demonstrando acessibilidade
+### 1. Distribuição por Sexo
+![Distribuição por Sexo](https://github.com/user-attachments/assets/distribuicao_sexo.png)
 
-### Padrões de Atividade
-- **População Trabalhadora**: ~72% da amostra está empregada
-- **População Estudantil**: ~41% está envolvida em atividades educacionais
-- **Sobreposição**: Significativo número de pessoas que trabalham e estudam
+A análise revela distribuição equilibrada entre os gêneros: 50.5% masculino e 49.5% feminino, indicando representatividade adequada da amostra.
 
-### Análise de Transporte
-- **Modal Dominante**: Sistema de transporte público (ônibus)
-- **Mobilidade Ativa**: Parcela significativa se desloca a pé
-- **Tecnologia**: Baixa adoção de aplicativos para solicitação de táxi
+### 2. Distribuição por Faixa Etária  
+![Distribuição por Faixa Etária](https://github.com/user-attachments/assets/distribuicao_faixa_etaria.png)
+
+Concentração significativa na faixa de 25-39 anos (população economicamente ativa), seguida pela faixa de 40-59 anos, refletindo o perfil da força de trabalho metropolitana.
+
+### 3. Distribuição por Renda
+![Distribuição por Renda](https://github.com/user-attachments/assets/distribuicao_renda.png)
+
+Predominância nas faixas de 1-2 salários mínimos, com concentração de baixa/média renda. Destaque para o grupo "sem rendimento", indicando desafios socioeconômicos.
+
+### 4. Mobilidade Reduzida
+![Mobilidade Reduzida](https://github.com/user-attachments/assets/mobilidade_reduzida.png)
+
+Baixa incidência de pessoas com mobilidade reduzida na amostra, sugerindo que a pesquisa capturou principalmente população com plena capacidade de locomoção.
+
+### 5. Distribuição das Atividades
+![Distribuição das Atividades](https://github.com/user-attachments/assets/distribuicao_atividades.png)
+
+Análise mostra que aproximadamente 42.000 pessoas trabalham, 24.000 estudam, e cerca de 6.700 combinam trabalho e estudo, evidenciando a dinâmica da população metropolitana.
+
+### 6. Meios de Transporte para Trabalho
+![Meios de Transporte - Trabalho](https://github.com/user-attachments/assets/transportes_trabalho.png)
+
+O gráfico evidencia a predominância do transporte público, com o ônibus como modal principal para deslocamentos ao trabalho.
+
+### 7. Meios de Transporte para Estudo
+![Meios de Transporte - Estudo](https://github.com/user-attachments/assets/transportes_estudo.png)
+
+Padrão similar ao trabalho, com forte dependência do sistema público de transporte para acesso às instituições de ensino.
 
 ## 🧹 Metodologia de Análise
 
@@ -190,23 +208,25 @@ df = pd.read_csv('pesquisaodrecife2016.csv', sep=';', encoding='utf-8', low_memo
 | **Categorias Analisadas** | Demografia, Mobilidade, Transporte, Tecnologia |
 | **Tempo de Execução** | ~30 segundos |
 
-## 🔮 Próximos Passos
+## 🔮 Extensões Futuras
 
-- [ ] **Análise Geoespacial**: Mapeamento por zonas de tráfego
-- [ ] **Análise Temporal**: Padrões por horário e frequência
-- [ ] **Machine Learning**: Modelos preditivos de escolha modal
-- [ ] **Dashboard Interativo**: Interface web com Streamlit
-- [ ] **Análise Comparativa**: Dados de outros anos
+O projeto serve como base para análises mais avançadas:
 
-## 🤝 Contribuições
+- **Análise Geoespacial**: Mapeamento por zonas de tráfego
+- **Análise Temporal**: Padrões por horário e frequência  
+- **Machine Learning**: Modelos preditivos de escolha modal
+- **Dashboard Interativo**: Interface web para exploração dos dados
 
-Contribuições são bem-vindas! Para contribuir:
+## 🤝 Sobre o Desenvolvimento
 
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/nova-analise`)
-3. Commit suas mudanças (`git commit -m 'Adiciona análise de horários'`)
-4. Push para a branch (`git push origin feature/nova-analise`)
-5. Abra um Pull Request
+Este projeto foi desenvolvido como parte de um portfólio de análise de dados, demonstrando competências em:
+
+- **Manipulação de Dados**: Processamento de datasets complexos com Pandas
+- **Análise Exploratória**: Identificação de padrões e insights em dados reais  
+- **Visualização**: Criação de gráficos informativos e profissionais
+- **Documentação**: Metodologia clara e reprodutível
+
+O código está otimizado para ser executado de forma independente, gerando automaticamente todas as visualizações e análises apresentadas.
 
 ## 📄 Licença
 
@@ -228,6 +248,4 @@ Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
 ---
 
-⭐ **Se este projeto foi útil, deixe uma estrela!** ⭐
-
-*Desenvolvido com ❤️ para contribuir com análises de mobilidade urbana no Brasil*
+⭐ **Projeto desenvolvido para demonstrar competências em análise de dados e Python** ⭐
